@@ -1,7 +1,7 @@
 import java.util.Arrays;
 
 public class Level1 {
-    public static boolean misterRobot(int N, int[] data) {
+    public static boolean MisterRobot(int N, int[] data) {
         int[] copyData = Arrays.copyOf(data, N);
         Arrays.sort(copyData);
         int[] sortData = Arrays.copyOf(data, N);
